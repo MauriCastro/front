@@ -1,0 +1,12 @@
+footer {
+    background-color: rgb(213, 212, 212);
+    text-align: center;
+    height: 50px;
+    align-content: center;
+    color: rgb(83, 83, 83);
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;  
+    
+}

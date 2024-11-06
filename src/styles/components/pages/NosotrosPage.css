@@ -1,0 +1,27 @@
+.equipo h2{
+    text-align: center;
+    /* color: rgb(216, 162, 80); */
+    color: rgb(189, 150, 91);
+    margin: 60px;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.personas img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.persona{
+    width: 30%;
+    text-align: center;
+}
+.persona h4{
+    color: rgb(149, 149, 149);
+    font-style: italic;
+}
+.persona h3{
+    color: rgb(189, 150, 91);
+}

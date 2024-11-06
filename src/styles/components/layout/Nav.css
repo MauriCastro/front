@@ -1,0 +1,23 @@
+nav ul {
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(235, 176, 88);
+    font-size: 20px;
+}
+nav ul li .activo{
+    color: rgb(232, 86, 33);
+}
+nav ul li a:hover {
+    color: rgb(232, 86, 33);    
+}

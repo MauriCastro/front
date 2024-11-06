@@ -1,0 +1,39 @@
+.alfajores{
+    margin-top: 80px;
+    
+}
+.alfajores img{
+    width: 900px;
+    height: 350px;
+}
+.columnas{
+    display: flex;
+    width: 100%;
+
+}
+.left{
+    width: 60%;
+}
+.left h2{
+    text-align: center;
+   
+}
+.right{
+    width: 40%;
+}
+.right h2{
+    text-align: center;
+}
+.autor{
+    
+    font-size: 14px;
+    padding-top: 10px;
+    
+}
+.cajatesti{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    font-style: italic;
+    color: rgb(162, 162, 162);
+}

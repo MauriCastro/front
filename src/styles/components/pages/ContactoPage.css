@@ -1,0 +1,73 @@
+.box {
+    display: flex;
+
+}
+
+.contacto {
+    width: 50%;
+}
+
+.datos {
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(181, 111, 5);
+}
+
+P {
+    display: flex; 
+    flex-direction: column;
+}
+
+.form input {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border-bottom-width: 2px;
+    border-color: rgb(167, 152, 101);
+    margin-top: 10px;
+}
+
+.form textarea {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border-bottom-width: 2px;
+    border-color: rgb(167, 152, 101);
+    margin-top: 10px;
+    height: 100px;
+
+}
+
+.boton {
+
+    height: 30px;
+    width: 90%;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(130deg, rgb(238, 206, 155), rgb(223, 214, 174));
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    color: rgb(99, 97, 94);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boton:hover {
+    background: linear-gradient(130deg, rgb(223, 214, 174), rgb(238, 206, 155));
+}
+
+.datos ul {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.datos a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}

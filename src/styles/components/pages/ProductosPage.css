@@ -1,0 +1,19 @@
+.productos{
+    display: flex;
+    flex-direction: column;
+}
+.productos h2{
+    text-align: center;
+    color: rgb(216, 162, 80);
+    margin: 60px;
+}
+.productos img{
+    width: 25%;
+    height: 400px;
+    border-radius: 20px;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
